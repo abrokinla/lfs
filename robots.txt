@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Block thank-you page from indexing
+Disallow: /thanks.html
+
+Sitemap: https://www.lifefaithschool.com.ng/sitemap.xml

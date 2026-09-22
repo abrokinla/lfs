@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Life Faith School, Port Harcourt</title>
+  <meta name="description" content="Explore the gallery of Life Faith School — classroom moments, sports, events, facilities and community life in Port Harcourt.">
+  <meta property="og:title" content="Gallery | Life Faith School">
+  <meta property="og:description" content="A glimpse into everyday life at Life Faith School.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/logo/lfs_logo.png">
+  <link rel="icon" type="image/png" href="assets/images/logo/lfs_logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/gallery.css">
+  <link rel="stylesheet" href="assets/css/forms.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Life Faith School Home">
+        <img src="assets/images/logo/lfs_logo.png" alt="Life Faith School logo" class="logo-img" width="48" height="48">
+        <span class="logo-text">
+          <span class="logo-title">Life Faith School</span>
+          <span class="logo-tagline">Knowledge is soundness</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="academics.html" class="nav-link">Academics</a>
+        <a href="admissions.html" class="nav-link">Admissions</a>
+        <a href="gallery.html" class="nav-link active" aria-current="page">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="admissions.html" class="btn btn-primary btn-sm header-cta">Apply Now</a>
+        <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+          <svg class="menu-open" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+          <svg class="menu-close" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="index.html" class="mobile-nav-link">Home</a>
+    <a href="about.html" class="mobile-nav-link">About</a>
+    <a href="academics.html" class="mobile-nav-link">Academics</a>
+    <a href="admissions.html" class="mobile-nav-link">Admissions</a>
+    <a href="gallery.html" class="mobile-nav-link active">Gallery</a>
+    <a href="contact.html" class="mobile-nav-link">Contact</a>
+    <div class="mobile-nav-cta">
+      <a href="admissions.html" class="btn btn-primary w-full">Apply Now</a>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <header class="page-header">
+      <div class="page-header-inner">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <span class="breadcrumb-item"><a href="index.html" class="breadcrumb-link">Home</a></span>
+          <span class="breadcrumb-separator" aria-hidden="true">&rsaquo;</span>
+          <span class="breadcrumb-item breadcrumb-current">Gallery</span>
+        </nav>
+        <h1 class="page-title">Life At Life Faith School</h1>
+        <p class="page-subtitle">Moments of learning, laughter, faith and friendship from our classrooms and campus.</p>
+      </div>
+    </header>
+
+    <section class="gallery-section" id="gallery-section">
+      <div class="container">
+        <div class="gallery-filter" role="group" aria-label="Filter gallery by category">
+          <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-btn" data-filter="academics" aria-pressed="false">Academics</button>
+          <button class="filter-btn" data-filter="sports" aria-pressed="false">Sports</button>
+          <button class="filter-btn" data-filter="events" aria-pressed="false">Events</button>
+          <button class="filter-btn" data-filter="facilities" aria-pressed="false">Facilities</button>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item aspect-landscape gallery-item--featured" data-category="academics" tabindex="0" role="button" aria-label="View image: Students learning in a classroom">
+            <img class="gallery-image" src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80" alt="Students learning together in a bright classroom" loading="lazy">
+            <figcaption class="gallery-overlay">
+              <span class="gallery-category">Academics</span>
+              <span class="gallery-caption">Active learning in our classrooms</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item aspect-square" data-category="sports" tabindex="0" role="button" aria-label="View image: Students playing football on the field">
+            <img class="gallery-image" src="https://images.unsplash.com/photo-1543326727-cf6c39e8f84c?auto=format&fit=crop&w=800&q=80" alt="Students playing football together on the school field" loading="lazy">
+            <figcaption class="gallery-overlay">
+              <span class="gallery-category">Sports</span>
+              <span class="gallery-caption">Football on the field</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item aspect-square" data-category="academics" tabindex="0" role="button" aria-label="View image: Students studying in the library">
+            <img class="gallery-image" src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80" alt="Students reading and studying together in the library" loading="lazy">
+            <figcaption class="gallery-overlay">
+              <span class="gallery-category">Academics</span>
+              <span class="gallery-caption">Quiet study in the library</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item aspect-portrait" data-category="events" tabindex="0" role="button" aria-label="View image: Students celebrating at a school event">
+            <img class="gallery-image" src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80" alt="Happy students in uniform celebrating a school event" loading="lazy">
+            <figcaption class="gallery-overlay">
+              <span class="gallery-category">Events</span>
+              <span class="gallery-caption">Celebrating our graduates</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item aspect-square" data-category="facilities" tabindex="0" role="button" aria-label="View image: The school science laboratory">
+            <img class="gallery-image" src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=800&q=80" alt="Students conducting an experiment in the school science laboratory" loading="lazy">
+            <figcaption class="gallery-overlay">
+              <span class="gallery-category">Facilities</span>
+              <span class="gallery-caption">Hands-on science laboratory</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item aspect-landscape" data-category="events" tabindex="0" role="button" aria-label="View image: Children's day celebration">
+            <img class="gallery-image" src="https://images.unsplash.com/photo-1609220136736-443140cffec6?auto=format&fit=crop&w=1200&q=80" alt="Black children in colorful outfits celebrating Children's Day" loading="lazy">
+            <figcaption class="gallery-overlay">
+              <span class="gallery-category">Events</span>
+              <span class="gallery-caption">Children's Day celebration</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item aspect-square" data-category="academics" tabindex="0" role="button" aria-label="View image: Students raising hands in class">
+            <img class="gallery-image" src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=80" alt="Students eagerly raising their hands to answer a question" loading="lazy">
+            <figcaption class="gallery-overlay">
+              <span class="gallery-category">Academics</span>
+              <span class="gallery-caption">Eager to answer</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item aspect-portrait" data-category="sports" tabindex="0" role="button" aria-label="View image: Students in their sports day">
+            <img class="gallery-image" src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=800&q=80" alt="Young athletes running during sports day" loading="lazy">
+            <figcaption class="gallery-overlay">
+              <span class="gallery-category">Sports</span>
+              <span class="gallery-caption">Sports day races</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item aspect-square" data-category="facilities" tabindex="0" role="button" aria-label="View image: The school computer lab">
+            <img class="gallery-image" src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80" alt="Students using computers in the school ICT laboratory" loading="lazy">
+            <figcaption class="gallery-overlay">
+              <span class="gallery-category">Facilities</span>
+              <span class="gallery-caption">ICT laboratory</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item aspect-landscape" data-category="events" tabindex="0" role="button" aria-label="View image: Students singing during assembly">
+            <img class="gallery-image" src="https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=1200&q=80" alt="Children singing joyfully during a school assembly" loading="lazy">
+            <figcaption class="gallery-overlay">
+              <span class="gallery-category">Events</span>
+              <span class="gallery-caption">Singing at morning assembly</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item aspect-square" data-category="academics" tabindex="0" role="button" aria-label="View image: Students doing homework together">
+            <img class="gallery-image" src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=800&q=80" alt="Students working together on an assignment" loading="lazy">
+            <figcaption class="gallery-overlay">
+              <span class="gallery-category">Academics</span>
+              <span class="gallery-caption">Group study session</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item aspect-portrait" data-category="facilities" tabindex="0" role="button" aria-label="View image: Artwork in the creative arts corner">
+            <img class="gallery-image" src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80" alt="Colorful artwork and paints in the creative arts class" loading="lazy">
+            <figcaption class="gallery-overlay">
+              <span class="gallery-category">Facilities</span>
+              <span class="gallery-caption">Creative arts corner</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="gallery-empty" style="display:none;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="9" cy="9" r="2"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+          <p>No images found in this category yet.</p>
+        </div>
+
+        <div class="gallery-cta">
+          <h2 style="font-size: var(--text-2xl); margin-bottom: var(--space-4);">More than just pictures — it's a community.</h2>
+          <p style="color: var(--text-secondary); margin-bottom: var(--space-6);">Experience the Joy of life at Life Faith School in person.</p>
+          <div class="cta-actions">
+            <a href="contact.html" class="btn btn-primary">Schedule a Campus Tour</a>
+            <a href="admissions.html" class="btn btn-outline">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+      <div class="lightbox-content">
+        <span class="lightbox-counter">1 / 12</span>
+        <button class="lightbox-close" aria-label="Close image viewer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+        <button class="lightbox-nav lightbox-prev" aria-label="Previous image">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 18l-6-6 6-6"></path></svg>
+        </button>
+        <img class="lightbox-image" src="" alt="">
+        <button class="lightbox-nav lightbox-next" aria-label="Next image">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"></path></svg>
+        </button>
+        <div class="lightbox-caption"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="assets/images/logo/lfs_logo.png" alt="Life Faith School logo" class="footer-logo-img" width="56" height="56">
+            <span class="logo-text">
+              <span class="logo-title" style="color:#fff;">Life Faith School</span>
+              <span class="logo-tagline">Knowledge is soundness</span>
+            </span>
+          </div>
+          <p class="footer-tagline">A modern missionary school in Port Harcourt, Rivers State providing low-cost quality education to everybody — including the less privileged.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7h2.5l.5-3h-3V9.1c0-.9.3-1.6 1.7-1.6h1.4V4.8c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.4-4 4.1V11H8v3h2.2v7h3.3z"></path></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="X / Twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7 8 8.3 12h-6.5l-5-7.4L6 22H3l7.5-8.6L2.5 2H9l4.5 6.5L18.9 2zm-1.2 18h1.8L6.6 3.9H4.7L17.7 20z"></path></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.6 7.2a2.5 2.5 0 00-1.8-1.8C18.3 5 12 5 12 5s-6.3 0-7.8.4A2.5 2.5 0 002.4 7.2 26 26 0 002 12a26 26 0 00.4 4.8 2.5 2.5 0 001.8 1.8C5.7 19 12 19 12 19s6.3 0 7.8-.4a2.5 2.5 0 001.8-1.8A26 26 0 0022 12a26 26 0 00-.4-4.8zM10 15.5v-7l6 3.5-6 3.5z"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <nav class="footer-links" aria-label="Footer quick links">
+          <h3 class="footer-title">Quick Links</h3>
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="about.html" class="footer-link">About Us</a>
+          <a href="academics.html" class="footer-link">Academics</a>
+          <a href="admissions.html" class="footer-link">Admissions</a>
+          <a href="gallery.html" class="footer-link">Gallery</a>
+          <a href="contact.html" class="footer-link">Contact</a>
+        </nav>
+
+        <nav class="footer-links" aria-label="Footer academics links">
+          <h3 class="footer-title">Academics</h3>
+          <a href="academics.html" class="footer-link">Nursery School</a>
+          <a href="academics.html" class="footer-link">Primary School</a>
+          <a href="academics.html" class="footer-link">Junior Secondary</a>
+          <a href="academics.html" class="footer-link">Senior Secondary</a>
+          <a href="admissions.html" class="footer-link">Fee Structure</a>
+          <a href="admissions.html" class="footer-link">Admission Process</a>
+        </nav>
+
+        <div class="footer-contact">
+          <h3 class="footer-title">Get In Touch</h3>
+          <div class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 21s-7-5.2-7-11a7 7 0 0114 0c0 5.8-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>
+            <span>Port Harcourt, Rivers State, Nigeria.</span>
+          </div>
+          <div class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012 4.2 2 2 0 014 2h3a2 2 0 012 1.7c.1 1 .4 2 .7 2.9a2 2 0 01-.5 2.1L8 10a16 16 0 006 6l1.3-1.2a2 2 0 012.1-.5c.9.3 1.9.6 2.9.7a2 2 0 011.7 1.9z"></path></svg>
+            <a href="tel:+2348120225934">+234 812 022 5934</a>
+          </div>
+          <div class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16v16H4z"></path><path d="M4 6l8 6 8-6"></path></svg>
+            <a href="mailto:info@lifefaithschool.com.ng">info@lifefaithschool.com.ng</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy; <span class="current-year">2026</span> Life Faith School. All rights reserved.</p>
+        <nav class="footer-legal" aria-label="Legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2348120225934?text=Hello%20Life%20Faith%20School%2C%20I%20would%20like%20to%20inquire%20about%20admissions." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.2 14.2c-.2.6-1.2 1.1-1.7 1.2-.5 0-1 .2-3.4-.7-2.9-1.1-4.7-4-4.9-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.5.5c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 2 1.1 1 2 1.3 2.3 1.4.3.1.5.1.6-.1l.7-.8c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.4.1.1.1.5-.2 1.1z"></path></svg>
+    <span class="whatsapp-tooltip">Chat with us on WhatsApp</span>
+  </a>
+
+  <script src="assets/js/utils.js" defer></script>
+  <script src="assets/js/navigation.js" defer></script>
+  <script src="assets/js/gallery.js" defer></script>
+  <script src="assets/js/forms.js" defer></script>
+  <script src="assets/js/whatsapp-float.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
