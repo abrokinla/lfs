@@ -1,6 +1,6 @@
 # Life Faith School — Static Website
 
-A responsive static website for **Life Faith School**, a modern missionary school in Port Harcourt, Rivers State, Nigeria. Built with **vanilla HTML, CSS and JavaScript** — no build step, deploy anywhere.
+A responsive static website for **Life Faith School**, a modern missionary school in Port Harcourt, Rivers State, Nigeria. Built with **vanilla HTML, CSS and JavaScript**
 
 ## Mission
 Provide **low-cost quality education to everybody, including the less privileged** — Nursery through Senior Secondary 2 (SSS 2).
